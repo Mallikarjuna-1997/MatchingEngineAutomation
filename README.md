@@ -12,17 +12,25 @@ To automatically verify the visibility and accuracy of supported products listed
 
 ## 🧱 Folder Structure
 
-MatchingEngineAutomation/
-│
-├── Drivers/ # Chrome WebDriver initialization
-├── PageObjects/ # Page Object Models (elements + actions)
-├── Tests/ # NUnit test classes
-├── Utilities/ # Reusable assertions and wait helpers
-├── TestResults/ # Test result output (ignored in .gitignore)
-├── TestReports/ # Code coverage HTML reports (ignored in .gitignore)
-├── test.runsettings # Code coverage configuration
+MatchingEngineAutomation
+
+├── Drivers  (Chrome WebDriver initialization)
+
+├── PageObjects (Page Object Models (elements + actions) )
+
+├── Tests (NUnit test classes)
+
+├── Utilities  (Reusable assertions and wait helpers)
+
+├── TestResults  (Test result output (ignored in .gitignore) )
+
+├── TestReports  (Code coverage HTML reports (ignored in .gitignore) )
+
+├── test.runsettings  (Code coverage configuration)
+
 ├── MatchingEngineAutomation.csproj
-└── README.md # Project documentation
+
+├── README.md  (Project documentation)
 
 
 ---
@@ -35,7 +43,7 @@ MatchingEngineAutomation/
 4. Scroll to the **Additional Features** section
 5. Click on **Products Supported**
 6. Assert the visibility of the heading:  
-   *“There are several types of Product Supported:”*
+   *There are several types of Product Supported:*
 7. Validate the presence of:
    - Albums
    - Singles
@@ -58,7 +66,6 @@ MatchingEngineAutomation/
 
 ## 🚀 How to Run the Tests
 
-bash
 # Restore packages
 dotnet restore
 
@@ -86,6 +93,8 @@ TestReports/index.html
 ## Git Ignore Highlights
 
 Compiled files (bin/, obj/)
+
 Test outputs (TestResults/, TestReports/)
+
 Editor configs and system files
 
