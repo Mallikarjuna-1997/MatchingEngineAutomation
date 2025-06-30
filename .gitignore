@@ -1,1 +1,76 @@
-bin/`nobj/`nTestResults/`nTestReports/`n.vscode/ 
+###############################################################################
+# 📁 MatchingEngineAutomation – UI Test Automation with Selenium & NUnit
+#
+# 🧾 Project Summary:
+#   This is a UI test automation project for the website https://www.matchingengine.com/.
+#   It automates validation of the Repertoire Management module using Selenium WebDriver.
+#
+# 🛠️ Technologies Used:
+#   - C# with .NET 9
+#   - Selenium WebDriver
+#   - NUnit Framework
+#   - ChromeDriver
+#   - ReportGenerator (for HTML test coverage reports)
+#
+# 🗂️ Folder Structure:
+#   - Drivers/             → WebDriver factory class setup
+#   - PageObjects/         → Page classes with elements and Actions (POM design pattern)
+#   - Utilities/           → Assertion helpers and wait mechanisms
+#   - Tests/               → NUnit test classes
+#   - TestResults/         → Temporary test outputs (ignored)
+#   - TestReports/         → HTML reports (ignored)
+#   - .runsettings         → Custom run config (included)
+#
+# 🙈 Files/Folders below are ignored to keep the repo clean and shareable
+###############################################################################
+
+# ⛔ Build output
+bin/
+obj/
+
+# ⛔ IDE/Editor-specific files
+.vscode/
+*.user
+*.suo
+
+# ⛔ Test and code coverage outputs
+TestResults/
+TestReports/
+*.trx
+*.coverage
+*.coveragexml
+*.cobertura.xml
+
+# ⛔ Temp and cache
+*.tmp
+*.log
+*.cache
+
+# ⛔ NuGet packages (if not using package restore)
+packages/
+*.nupkg
+
+# ⛔ Compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# ⛔ Misc settings
+*.vspscc
+*.vssscc
+*.userprefs
+
+# ⛔ OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ⛔ JetBrains Rider or ReSharper artifacts
+_ReSharper*/
+*.DotSettings.user
+
+###############################################################################
+# ✅ Important:
+# Keep this .gitignore updated as the project evolves.
+###############################################################################
+
